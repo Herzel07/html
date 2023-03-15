@@ -1,5 +1,28 @@
-body{
-    background-color: yellow;
+nav{
+    background-color: #555;
+    height: 200px;
     display: flex;
-    justify-content: center;
+    align-items: center;
+    
+
+
+
+
+
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+li{
+    list-style: none;
+}
+.about{
+    height: 500px;
+    background-color:rgb(245, 231, 220);
+}
+.contacts{
+    height: 300px;
+    background-color: rgb(71, 47, 47);
 }
