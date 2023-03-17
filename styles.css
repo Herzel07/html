@@ -1,28 +1,49 @@
 nav{
-    background-color: #555;
-    height: 200px;
+    background-color:antiquewhite;
     display: flex;
+    justify-content: space-between;
+    height: 200px;
+    text-decoration: underline;
+    font-size: xx-large;
     align-items: center;
-    
-
-
-
-
 
 }
 ul{
     display: flex;
+    justify-content: center;
     justify-content: space-between;
-    gap: 50px;
+    gap: 100px;
+    color: rgb(112, 5, 5);
 }
+
 li{
-    list-style: none;
+    list-style: square;
 }
 .about{
-    height: 500px;
-    background-color:rgb(245, 231, 220);
+    height: 30px;
+    background-color: rosybrown;
+    padding-left: 1000px;
+    color: rgb(112, 5, 5);
+    font-size: x-small;
 }
 .contacts{
-    height: 300px;
-    background-color: rgb(71, 47, 47);
+    background-color: white;
+    font-size: xx-small;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.names{
+    background-color: white;
+    height: 10px;
+    font-size: smaller;
+}
+.surname{
+    background-color: white;
+    height: 10px;
+    font-size: smaller;
+}
+.age{
+    background-color: white;
+    height: 10px;
+    font-size: smaller;
 }
